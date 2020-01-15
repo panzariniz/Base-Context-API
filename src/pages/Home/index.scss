@@ -1,0 +1,10 @@
+.container {
+  max-width: 1100px;
+  margin: 50px auto;
+
+  &__auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

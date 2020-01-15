@@ -1,0 +1,21 @@
+.container {
+  max-width: 1100px;
+  margin: 50px auto;
+
+  &__auth {
+    align-items: center;
+    h3 {
+      display: block;
+    }
+  }
+
+  &__login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .button-logout-auth-google {
+      margin-left: 20px;
+    }
+  }
+}
